@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "", "dangkidb");
+$connect = mysqli_connect("localhost", "root", "", "dangkiDB");
 $output = '';
 if(isset($_POST["query"]))
 {
